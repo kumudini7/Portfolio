@@ -809,25 +809,12 @@ button:hover {
     flex-direction: column;
     padding-top: 2rem;
   }
-  .profile-text{
-    padding: 40px 0px;
-  }
-}
+
+
 .profile-photo{
   order: 1;
   margin-top: 130px;
 
-}
-.about-area.container.about h1,p{
-  order: 1;
-  margin: 10px;
-}
-.about-area.container.skills-wrapper {
-  order: 2;
-  position: static;
-}
-.profile-text {
-  order: 2;
 }
 
 
@@ -837,24 +824,12 @@ button:hover {
   .container{
     width: 750px;
   } 
-}  
+ 
 .profile-photo{
   order: 1;
   margin-top: 130px;
 
 }
-.about-area.container.about h1,p{
-  order: 1;
-  margin: 10px;
-}
-.about-area.container.skills-wrapper {
-  order: 2;
-  position: static;
-}
-.profile-text {
-  order: 2;
-}
-
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
