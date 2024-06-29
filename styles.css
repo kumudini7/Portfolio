@@ -813,6 +813,22 @@ button:hover {
     padding: 40px 0px;
   }
 }
+.profile-photo{
+  order: 1;
+  margin-top: 130px;
+
+}
+.about-area.container.about h1,p{
+  order: 1;
+  margin: 10px;
+}
+.about-area.container.skills-wrapper {
+  order: 2;
+  position: static;
+}
+.profile-text {
+  order: 2;
+}
 
 
 
@@ -822,6 +838,22 @@ button:hover {
     width: 750px;
   } 
 }  
+.profile-photo{
+  order: 1;
+  margin-top: 130px;
+
+}
+.about-area.container.about h1,p{
+  order: 1;
+  margin: 10px;
+}
+.about-area.container.skills-wrapper {
+  order: 2;
+  position: static;
+}
+.profile-text {
+  order: 2;
+}
 
 
 /* Mobile Layout */
