@@ -53,8 +53,6 @@ header {
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.3);
 }
 
-
-
 .header{
   display:flex;
   justify-content: space-between;
@@ -809,13 +807,15 @@ button:hover {
     flex-direction: column;
     padding-top: 2rem;
   }
-
-
+  .profile-text{
+    padding: 40px 0px;
+  }
+}
 .profile-photo{
+
   margin-top: 130px;
 
 }
-
 
 
 
@@ -824,12 +824,13 @@ button:hover {
   .container{
     width: 750px;
   } 
- 
+}  
 .profile-photo{
-  order: 1;
+
   margin-top: 130px;
 
 }
+
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
@@ -852,9 +853,11 @@ button:hover {
 }
 .about-area.container.skills-wrapper {
   order: 2;
-  position: relative;
+  position: static;
 }
-
+.profile-text {
+  order: 2;
+}
 
   .header .menu_icon {
     display: block;
