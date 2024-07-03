@@ -826,10 +826,11 @@ button:hover {
   } 
 }  
 .profile-photo{
-
+  order: 1;
   margin-top: 130px;
 
 }
+
 
 
 /* Mobile Layout */
