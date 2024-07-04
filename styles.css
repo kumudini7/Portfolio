@@ -30,7 +30,38 @@ body{
 }
 
 
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #81e4fd;
+}
 
+.navbar li {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  display: block;
+  padding: 14px 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ffffff;
+}
+
+/* Hamburger menu icon */
+.menu_icon {
+  display: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  color: white;
+  background-color: #81e4fd;
+}
 
       /*---------------------------Header---------------------------*/
 
@@ -817,7 +848,9 @@ button:hover {
 
 }
 
-
+.profile-text {
+  order: 2;
+}
 
 /* tablet layout */
 @media only screen and (min-width:768px) and (max-width:999px){
@@ -830,11 +863,24 @@ button:hover {
   margin-top: 130px;
 
 }
+.profile-text {
+  order: 2;
+}
 
 
 
 /* Mobile Layout */
 @media only screen and (max-width:767px){
+  .navbar {
+    flex-direction: column;
+    display: none;
+}
+.navbar.active {
+    display: flex;
+}
+.menu_icon {
+    display: block;
+}
   .container{
     width: 350px;
   }
